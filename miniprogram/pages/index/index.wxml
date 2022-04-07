@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item">
+              <image style="width: 100%; height: 150px;" mode="scaleToFill" src="{{item}}"></image>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  <view class="center-container">
+    <view class="content1">content1</view>
+    <view class="content2">content2</view>
+  </view>
+</view>

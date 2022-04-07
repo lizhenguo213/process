@@ -1,0 +1,25 @@
+<!--pages/store/store.wxml-->
+<view class="search_box">
+    <input type="text" placeholder="请输入想搜索的商品"/>
+    <image class="search_btn" src="../../icon/cake-1.png"></image>
+</view>
+<view class="tab-layer"></view>
+<view class="container">
+    <view class="goods_container">
+        <view wx:for="{{goodsList}}" bindtap="goDetail" data-index='{{index}}' wx:key="g_name" data-item="{{item}}" class="goods_box">
+            <image src="cloud://cloud1-6gn6h82r745ad5f2.636c-cloud1-6gn6h82r745ad5f2-1310755490/guimie.jpeg"></image>
+            <view class="goods_price">{{item.g_price}}元/斤  剩余{{item.g_amount}}斤</view>
+            <view class="goods_name">{{item.g_name}}</view>
+        </view>
+        <view wx:for="{{goodsList}}" bindtap="goDetail" data-index='{{index}}' wx:key="g_name" data-item="{{item}}" class="goods_box">
+            <image src="cloud://cloud1-6gn6h82r745ad5f2.636c-cloud1-6gn6h82r745ad5f2-1310755490/guimie.jpeg"></image>
+            <view class="goods_price">{{item.g_price}}元/斤  剩余{{item.g_amount}}斤</view>
+            <view class="goods_name">{{item.g_name}}</view>
+        </view>
+        <view wx:for="{{goodsList}}" bindtap="goDetail" data-index='{{index}}' wx:key="g_name" data-item="{{item}}" class="goods_box">
+            <image src="cloud://cloud1-6gn6h82r745ad5f2.636c-cloud1-6gn6h82r745ad5f2-1310755490/guimie.jpeg"></image>
+            <view class="goods_price">{{item.g_price}}元/斤  剩余{{item.g_amount}}斤</view>
+            <view class="goods_name">{{item.g_name}}</view>
+        </view>
+    </view>
+</view>

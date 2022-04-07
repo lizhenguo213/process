@@ -1,0 +1,57 @@
+/* pages/store/store.wxss */
+
+.search_box {
+    margin-left: 10px;
+    width: 95%;
+    position: fixed;
+    z-index: 100;
+    height: 25px;
+    display: flex;
+}
+.search_box input{
+    border: 1px solid darkgray;
+    float: left;
+    width: 90%;
+    border-radius: 5px;
+}
+.tab-layer {
+    width: 750rpx;
+    height: 25px;
+    background: #fff;
+    opacity: 0.9;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    border-bottom: 1rpx solid #dedede;
+}
+.container{
+    /* position: relative; */
+    margin-left: 10px;
+}
+.search_box .search_btn{
+    float: right;
+    height: 24px;
+    width: 24px;
+}
+
+.goods_container{
+    margin-top: 30px;
+    width: 100%;
+}
+.goods_box{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.goods_box image{
+    width: 140px;
+    height: 140px;
+}
+.goods_box .goods_price{
+    color: darkgray;
+    font-size: small; 
+}
+.goods_box .goods_name{
+    color: black;
+}

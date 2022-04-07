@@ -1,0 +1,15 @@
+/**index.wxss**/
+
+page {
+  /* padding-top: 54rpx; */
+  background-color: #f6f6f6;
+  /* padding-bottom: 60rpx; */
+}
+.swiper{
+  width: 95%;
+  padding: 5px 6px;
+}
+.swiper-item image{
+  width: 100%;
+  height: 100%;
+}

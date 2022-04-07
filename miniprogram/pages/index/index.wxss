@@ -1,0 +1,29 @@
+/**index.wxss**/
+
+page {
+  /* padding-top: 54rpx; */
+  background-color: #f6f6f6;
+  /* padding-bottom: 60rpx; */
+}
+.swiper{
+  width: 95%;
+  padding: 5px 6px;
+}
+.swiper-item image{
+  width: 100%;
+  height: 100%;
+}
+.center-container {
+  width: 95%;
+  padding: 0 6px;
+}
+.center-container view{
+  width: 48%;
+  height: 80px;
+  float: left;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+.center-container .content1{
+  margin-right: 8px;
+}
